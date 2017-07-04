@@ -1,0 +1,324 @@
+*{padding:0;margin:0;}
+html,body{width:100%;height:100%;}
+.out{width:100%;height:100%;
+    position: relative;
+    overflow: hidden;
+}
+.out>div{
+    width:100%;height:100%;
+    transition: transform 0.5s linear;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.out>div:nth-child(1){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.out>div:nth-child(2){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.out>div:nth-child(3){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.out>div:nth-child(4){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.out>div:nth-child(5){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.out>div:nth-child(6){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.out>div:nth-child(7){
+    background-image:url(../images/beijing.png);
+    background-size: 100% 100%;
+}
+.yincang{
+    display: none;
+}
+.xianshi{
+    display: block;
+}
+
+.up{
+    transform: translateY(-100%);
+}
+.down{
+    transform: translateY(100%);
+}
+
+
+/*1*/
+.f-1{
+    width:6.4rem;height:4.58rem;
+    position: absolute;top:1.7rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  f-1 3s linear;
+}
+.f-2{
+    width:6.4rem;height:0.6rem;
+    position: absolute;top:6.7rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  f-2 7s linear infinite;
+}
+.f-3{
+    width:6.4rem;height:0.7rem;
+    position: absolute;top:8.2rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  f-3 7s linear infinite;
+}
+
+/*2222    zi*/
+.t-1{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:0.76rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  t-1 1s linear;
+    animation-fill-mode:both;
+    opacity: 0;
+}
+.t-2{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:2.33rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  t-2 1s 2s linear;
+    animation-fill-mode:both;
+    opacity: 0;
+}
+.t-3{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:3.74rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  t-3 1s 1s linear;
+    animation-fill-mode:both;
+    opacity: 0;
+}
+.t-4{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:5.04rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  t-4 1s 3s linear ;
+    animation-fill-mode:both;
+    opacity: 0;
+}
+/*2  xxxxx*/
+.tx-1{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:0.76rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tx1 0.5s 3.5s linear infinite;
+    opacity: 0;
+}
+.tx-2{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:2.33rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tx2 0.5s 3.5s linear infinite;
+    opacity: 0;
+}
+.tx-3{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:3.74rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tx3 0.5s 3.5s linear infinite;
+    opacity: 0;
+}
+.tx-4{
+    width:6.4rem;height:0.45rem;
+    position: absolute;top:5.04rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tx4 0.5s 3.5s linear infinite;
+    opacity: 0;
+}
+/*2222222 ////////////*/
+.tg-2{
+    width:6.4rem;height:1.53rem;
+    position: absolute;top:1.05rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tg2 0.5s 4s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.tg-3{
+    width:6.4rem;height:1.53rem;
+    position: absolute;top:2.59rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tg3 1s 4s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.tg-4{
+    width:6.4rem;height:1.53rem;
+    position: absolute;top:4.03rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tg4 1.5s 4s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+
+/*333*/
+.three-1{
+    width:6.4rem;height:4.22rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tree1 3s 0.5s linear;
+}
+.three-2{
+    width:6.4rem;height:0.7rem;
+    position: absolute;top:7.2rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tree2 7s 0.5s linear infinite;
+}
+.three-3{
+    width:6.4rem;height:0.75rem;
+    position: absolute;top:9.28rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  tree3 7s 0.5s linear infinite;
+}
+
+/*14444444*/
+.four-1{
+    width:6.4rem;height:3.62rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  fo1 3s 0.5s linear;
+}
+.four-2{
+    width:6.4rem;height:3.62rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  fo2 3s 0.5s linear;
+}
+.four-3{
+    width:2.94rem;height:2.48rem;
+    position: absolute;top:3.84rem;left:0.18rem;
+    animation:  fo3 3s 0.5s linear;
+}
+.four-4{
+    width:3rem;height:2.48rem;
+    position: absolute;top:3.84rem;left:3.25rem;
+    animation:  fo4 3s 0.5s linear;
+}
+.four-5{
+    width:2.94rem;height:1.94rem;
+    position: absolute;top:6.46rem;left:0.18rem;
+    animation:  fo5 3s 0.5s linear;
+}
+.four-6{
+    width:3rem;height:1.94rem;
+    position: absolute;top:6.46rem;left:3.25rem;
+    animation:  fo6 3s 0.5s linear;
+}
+.four-7{
+    width:2.94rem;height:2.09rem;
+    position: absolute;top:8.57rem;left:0.18rem;
+    animation:  fo7 3s 0.5s linear;
+
+}
+.four-8{
+    width:3rem;height:2.09rem;
+    position: absolute;top:8.57rem;left:3.25rem;
+    animation:  fo8 3s 0.5s linear;
+}
+
+/*55555*/
+.fv-1{
+    width:6.4rem;height:3.46rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  fv1 3s 0.5s linear;
+}
+.fv-2{
+    width:6.4rem;height:3.46rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  fv2 3s 0.5s linear;
+}
+.fv-3{
+    width:3.2rem;height:2.18rem;
+    position: absolute;top:3.7rem;left:0.12rem;
+    animation:  fv3 2s 1s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-4{
+    width:2.94rem;height:2.18rem;
+    position: absolute;top:3.7rem;left:3.4rem;
+    animation:  fv4 2s 1s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-5{
+    width:3.2rem;height:2.18rem;
+    position: absolute;top:5.99rem;left:0.12rem;
+    animation:  fv5 2s 3.5s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-6{
+    width:2.94rem;height:2.18rem;
+    position: absolute;top:5.99rem;left:3.4rem;
+    animation:  fv6 2s 3.5s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-7{
+    width:3.2rem;height:2.18rem;
+    position: absolute;top:8.3rem;left:0.12rem;
+    animation:  fv7 2s 5.5s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.fv-8{
+    width:2.94rem;height:2.18rem;
+    position: absolute;top:8.3rem;left:3.4rem;
+    animation:  fv8 2s 5.5s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+/*66666*/
+.s-1{
+    width:6.4rem;height:3.24rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  s18 0.5s 0.5s linear;
+}
+.s-2{
+    width:6.4rem;height:3.24rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  s28 3s 1s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.s-3{
+    width:6.4rem;height:3.24rem;
+    position: absolute;top:0rem;left:50%;
+    margin-left:-3.2rem;
+    animation:  s38 3s 1.5s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.s-4{
+    width:3.4rem;height:3.4rem;
+    position: absolute;top:3.67rem;left:50%;
+    margin-left:-1.9rem;
+    animation:  s48 3s 2s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
+.s-5{
+    width:8rem;height:3.4rem;
+    position: absolute;top:6.67rem;left:50%;
+    margin-left:-3.9rem;
+    animation:  s48 3s 2s linear;
+    opacity: 0;
+    animation-fill-mode:both;
+}
